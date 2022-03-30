@@ -17,4 +17,7 @@ public class MessagePrinter {
 			writer.close();
 		}
 	}
+
+	public void writeMessage(Formatter formatter, PrintWriter writer, Message msg) {
+	}
 }
